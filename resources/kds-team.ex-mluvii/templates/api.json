@@ -16,7 +16,7 @@
     "limit": "1000"
   },
   "authentication": {
-    "type": "oauth20.login",
+    "type": "login",
     "expires": 3600,
     "loginRequest": {
       "endpoint": "login/connect/token",
@@ -53,11 +53,6 @@
           ]
         }
       }
-    }
-  },
-  "http": {
-    "headers": {
-      "Accept": "application/json"
     }
   }
 }
